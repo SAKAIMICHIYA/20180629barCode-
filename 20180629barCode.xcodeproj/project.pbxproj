@@ -14,6 +14,8 @@
 		D61D20CD20E5F0CC0005AF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61D20CB20E5F0CC0005AF83 /* LaunchScreen.storyboard */; };
 		D61D20D820E5F0CC0005AF83 /* _0180629barCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61D20D720E5F0CC0005AF83 /* _0180629barCodeTests.swift */; };
 		D61D20E320E5F0CC0005AF83 /* _0180629barCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61D20E220E5F0CC0005AF83 /* _0180629barCodeUITests.swift */; };
+		D61D20F220E75CB00005AF83 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61D20F120E75CB00005AF83 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D636D08D20E77F6400AE817F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D636D08C20E77F6400AE817F /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D61D20DE20E5F0CC0005AF83 /* 20180629barCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20180629barCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61D20E220E5F0CC0005AF83 /* _0180629barCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0180629barCodeUITests.swift; sourceTree = "<group>"; };
 		D61D20E420E5F0CC0005AF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61D20F120E75CB00005AF83 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D636D08C20E77F6400AE817F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D636D08D20E77F6400AE817F /* AudioToolbox.framework in Frameworks */,
+				D61D20F220E75CB00005AF83 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				D61D20D620E5F0CC0005AF83 /* 20180629barCodeTests */,
 				D61D20E120E5F0CC0005AF83 /* 20180629barCodeUITests */,
 				D61D20C020E5F0CA0005AF83 /* Products */,
+				D61D20F020E75CAF0005AF83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,15 @@
 				D61D20E420E5F0CC0005AF83 /* Info.plist */,
 			);
 			path = 20180629barCodeUITests;
+			sourceTree = "<group>";
+		};
+		D61D20F020E75CAF0005AF83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D636D08C20E77F6400AE817F /* AudioToolbox.framework */,
+				D61D20F120E75CB00005AF83 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
